@@ -3,4 +3,7 @@ type ERC721 @entity {
   address: Bytes!
   tokenId: BigInt!
   owner: Bytes!
+  name: String
+  symbol: String
+  uri: String
 }
