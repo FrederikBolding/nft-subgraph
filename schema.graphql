@@ -1,6 +1,6 @@
-type Gravatar @entity {
+type ERC721 @entity {
   id: ID!
+  address: Bytes!
+  tokenId: BigInt!
   owner: Bytes!
-  displayName: String!
-  imageUrl: String!
 }
