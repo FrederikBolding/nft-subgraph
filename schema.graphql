@@ -6,4 +6,6 @@ type ERC721 @entity {
   name: String
   symbol: String
   uri: String
+  image: String
+  description: String
 }
