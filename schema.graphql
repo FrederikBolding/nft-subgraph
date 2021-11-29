@@ -9,3 +9,10 @@ type ERC721 @entity {
   image: String
   description: String
 }
+
+type Collection @entity {
+  id: ID!
+  address: Bytes!
+  name: String
+  symbol: String
+}
